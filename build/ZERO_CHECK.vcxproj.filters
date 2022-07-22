@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\fb7aa2a81098c29cf65e3bc9672887c8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1F281175-2CD2-3C9B-B879-2AC04EB495A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

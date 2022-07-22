@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A972F449-DA16-37DD-BD70-1BADF28B6DA9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glfw-3.3.7.bin.WIN64\include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\VulkanSDK\1.3.216.0\Include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glm;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\stb;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glfw-3.3.7.bin.WIN64\include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\VulkanSDK\1.3.216.0\Include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glm;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\stb;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glfw-3.3.7.bin.WIN64\include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\VulkanSDK\1.3.216.0\Include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glm;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\stb;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glfw-3.3.7.bin.WIN64\include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\VulkanSDK\1.3.216.0\Include;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\glm;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\stb;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\Libraries\tinyobjloader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel -BG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build --check-stamp-file G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeSystem.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\models\big_wheel.obj;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\frag.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\vert.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\textures\wheel.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel -BG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build --check-stamp-file G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeSystem.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\models\big_wheel.obj;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\frag.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\vert.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\textures\wheel.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel -BG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build --check-stamp-file G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeSystem.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\models\big_wheel.obj;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\frag.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\vert.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\textures\wheel.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel -BG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build --check-stamp-file G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\3.23.2\CMakeSystem.cmake;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\models\big_wheel.obj;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\frag.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\shaders\vert.spv;G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\textures\wheel.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\ZERO_CHECK.vcxproj">
+      <Project>{C152391F-9149-3E71-834F-72D5110F8DF8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\VulkanTest.vcxproj">
+      <Project>{C4EBA1F2-D945-3FDF-B895-A4EDF3A58DB1}</Project>
+      <Name>VulkanTest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
