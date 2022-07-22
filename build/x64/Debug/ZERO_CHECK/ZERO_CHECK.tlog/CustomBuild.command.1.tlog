@@ -1,0 +1,10 @@
+^G:\C++\2022_07_14\VULKANTEST26-LOADING_MODELS_EXP02\VULKAN3DWHEEL\BUILD\CMAKEFILES\FB7AA2A81098C29CF65E3BC9672887C8\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel -BG:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/C++/2022_07_14/VulkanTest26-Loading_models_Exp02/Vulkan3Dwheel/build/VulkanTest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

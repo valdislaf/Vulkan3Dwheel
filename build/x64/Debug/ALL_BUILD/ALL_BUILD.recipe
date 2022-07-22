@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\Debug\VulkanTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

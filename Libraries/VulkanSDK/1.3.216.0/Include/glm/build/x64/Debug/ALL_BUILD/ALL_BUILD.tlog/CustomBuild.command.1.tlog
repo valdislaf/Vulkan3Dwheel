@@ -1,0 +1,10 @@
+^C:\VULKANSDK\1.3.216.0\INCLUDE\GLM\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/VulkanSDK/1.3.216.0/Include/glm -BC:/VulkanSDK/1.3.216.0/Include/glm/build --check-stamp-file C:/VulkanSDK/1.3.216.0/Include/glm/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
