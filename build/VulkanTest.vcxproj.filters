@@ -1,14 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\camera_my.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\camera_my.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9CF1F74F-5C24-3283-9782-69E09E3C3541}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{0BBAD54B-96AA-3186-ACFA-D437AB02346D}</UniqueIdentifier>
     </Filter>

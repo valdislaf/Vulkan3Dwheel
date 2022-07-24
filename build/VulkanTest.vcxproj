@@ -322,6 +322,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\camera_my.cpp" />
+    <ClInclude Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\camera_my.h" />
     <ClCompile Include="G:\C++\2022_07_14\VulkanTest26-Loading_models_Exp02\Vulkan3Dwheel\main.cpp" />
   </ItemGroup>
   <ItemGroup>
