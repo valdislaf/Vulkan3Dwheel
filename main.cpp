@@ -1520,6 +1520,9 @@ private:
             rot -= 0.1f;
         }
 
+        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
+            exit(0);
+        }
 
 
        /* camera_my.update(time);*/
